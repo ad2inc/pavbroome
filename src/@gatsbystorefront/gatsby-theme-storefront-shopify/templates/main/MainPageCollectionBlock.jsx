@@ -72,8 +72,8 @@ const MainPageCollectionBlock = props => {
               my: ['auto', '0%'],
               backgroundColor: [textBgColor, 'transparent'],
               opacity: [0.8, 1],
-              px: ['3%', 0],
-              py: ['2%', 0],
+              px: ['', 0],
+              py: ['', 0],
             }}
           >
             {' '}

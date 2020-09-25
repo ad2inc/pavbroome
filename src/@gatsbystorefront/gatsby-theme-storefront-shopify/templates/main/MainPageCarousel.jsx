@@ -58,6 +58,7 @@ const MainPageCarousel = (props) => {
               return (
                 <Slide key={index} index={index}>
                   {data.products.nodes.map((product, index) => {
+                    
                     if (product.handle === slide.handle) {
                       return (
                         <MainPageProductBlock
@@ -68,16 +69,17 @@ const MainPageCarousel = (props) => {
                         />
                       );
                     } else {
-                      return '<Slide>Damn</Slide>';
+                      return '';
                     }
                   })}
                 </Slide>
+                 
               );
             } else {
-              return '';
+              return '<Slide>Damn</Slide>';
             }
           })}
-          {/* <Slide>Damn</Slide> */}
+         
         </Slider>
 
         <ButtonBack

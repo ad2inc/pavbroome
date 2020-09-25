@@ -6,7 +6,16 @@ import MainPageCarousel from '@gatsbystorefront/gatsby-theme-storefront-shopify/
 import MainPageCollectionBlock from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/templates/main/MainPageCollectionBlock';
 import MainPageProductBlock from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/templates/main/MainPageProductBlock';
 
+import 'react-slideshow-image/dist/styles.css'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+
 const MainPage = props => {
+
+  
+
+
   const dataQuery = useStaticQuery(graphql`
     query MainPageStaticQuery1 {
       site {
@@ -32,13 +41,45 @@ const MainPage = props => {
     }
   `);
 
+
+
+  const slideImages = [
+    '../../../images/slide-1.jpg',
+    '../../../images/slide-2.jpg',
+    '../../../images/slide-3.jpg'
+  ];
+   
+  const Slideshow = () => {
+      return (
+        <div className="slide-container">
+          <Slide>
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                <span>Slide 1</span>
+              </div>
+            </div>
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+                <span>Slide 2</span>
+              </div>
+            </div>
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+                <span>Slide 3</span>
+              </div>
+            </div>
+          </Slide>
+        </div>
+      )
+  }
+
   const { mainPage } = dataQuery.site.siteMetadata.gatsbyStorefrontConfig;
 
   const { data } = props;
 
   return (
-    <div style={{width:'97%', overflow:'hidden'}}>
-    <Flex flexWrap="wrap" px={2} pt={3} mx="auto" style={{ maxWidth: 1300 }}>
+    <div style={{width:'100vw', overflow:'hidden'}}>
+    <Flex flexWrap="wrap" px={0} pt={0} mx="auto" style={{ maxWidth: 1300 }}>
       {mainPage.map((block, index) => {
         if (block.type === 'carousel') {
           return (
@@ -90,6 +131,8 @@ const MainPage = props => {
           return '';
         }
       })}
+
+
 
 
     </Flex>

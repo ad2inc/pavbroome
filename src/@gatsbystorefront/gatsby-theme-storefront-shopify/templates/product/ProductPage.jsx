@@ -237,12 +237,12 @@ function ProductPage({ data, pageContext, location }) {
               </Box>
             
 
-            <Flex mb={4} mt={4}>
+            {/* <Flex mb={4} mt={4}>
               <Box>
                 <Text>{paymentsLabel}</Text>
                 <Payments payments={payments} />
               </Box>
-            </Flex>
+            </Flex> */}
 
             <Divider bg="grey" mb={4} />
 

@@ -25,14 +25,14 @@ const ProductVariantAddToCart = ({ amount, cartUrl }) => {
   }, [currentVariant]);
 
   return (
-   
+
     <Button
       disabled={disabled}
       width={['80vw', '300px']}
       onClick={() => {
         addToCartHandler(currentVariant.shopifyId, amount);
       }}
-      variant={!disabled ? 'primary' : 'disabled'} >
+      variant={!disabled ? 'primary' : 'disabled'} style={{margin:'2rem 0'}}>
       {!disabled ? productAddToCartButton : productAddToCartSoldoutButton}
     </Button>
     

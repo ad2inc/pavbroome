@@ -299,7 +299,7 @@ const Navbar = (props) => {
 
 <div id="rolex-clock-desk" style={{width:'150px', height:'70px', position:'fixed', top:'10px', right:'240px',}}>
 
-<Link to="/rolex/" style={{position:'absolute', zIndex:'7', border:'1px solid #ccc', display:'block', width:'150px', height:'70px' }}></Link>
+<Link to="/rolex/" style={{position:'', zIndex:'7', border:'1px solid #ccc', display:'block', width:'150px', height:'70px' }}></Link>
  <iframe id="rolex_retailer" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', scroll:'none', zIndex:'0'}}></iframe> 
  </div>
 

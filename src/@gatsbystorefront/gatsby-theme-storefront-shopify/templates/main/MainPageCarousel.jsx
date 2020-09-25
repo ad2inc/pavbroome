@@ -27,8 +27,8 @@ const MainPageCarousel = (props) => {
   return (
     <Box width={1} sx={{ position: 'relative' }}>
       <CarouselProvider
-        naturalSlideWidth={1300}
-        naturalSlideHeight={800}
+        naturalSlideWidth={1377}
+        naturalSlideHeight={424}
         totalSlides={carousel.children.length}
         isPlaying={true}
         infinite={true}

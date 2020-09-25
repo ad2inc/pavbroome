@@ -5,14 +5,14 @@ module.exports = {
   plugins: [
 
 // Simon G API Importer
-    {
-      resolve: `gatsby-source-plugin-simong`,
-      options: {
-        spaceId: "123",
-        preview: true,
-        cacheResponse: false,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-plugin-simong`,
+    //   options: {
+    //     spaceId: "123",
+    //     preview: true,
+    //     cacheResponse: false,
+    //   },
+    // },
 // Simon G API Importer
 
     {
@@ -86,23 +86,23 @@ module.exports = {
           type: 'carousel',
           children: [
             {
-              name: 'Jewelery',
+              name: 'Rolex',
               type: 'collection',
-              handle: 'jewelery',
+              handle: 'ashi-collection',
               textColor: 'black',
               textBgColor: 'white',
             },
             {
-              name: 'Apparel',
+              name: 'Diamonds SALE',
               type: 'collection',
-              handle: 'apparel',
+              handle: 'diamonds',
               textColor: 'white',
               textBgColor: 'primary',
             },
             {
-              name: 'Silk Summer Top',
+              name: 'Only The Best',
               type: 'product',
-              handle: 'silk-summer-top',
+              handle: 'gemstone-diamond-fleur-de-lis-ring',
               textColor: 'white',
               textBgColor: 'primary',
             },

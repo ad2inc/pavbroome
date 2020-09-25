@@ -68,7 +68,7 @@ const MainPageCarousel = (props) => {
                         />
                       );
                     } else {
-                      return '';
+                      return '<Slide>Damn</Slide>';
                     }
                   })}
                 </Slide>

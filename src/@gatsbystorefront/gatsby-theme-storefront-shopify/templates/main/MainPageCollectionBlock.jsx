@@ -14,7 +14,7 @@ const Image = styled(GatsbyImage)``;
 const StyledBox = styled(Box)`
   & ${Image} {
     transition-property: all;
-    transition-duration: 0.6s;
+    transition-duration: 1.6s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
   }
@@ -22,7 +22,7 @@ const StyledBox = styled(Box)`
   // &:hover ${Image} {
   //   transform: scale(1.05);
   //   transition-property: all;
-  //   transition-duration: 0.6s;
+  //   transition-duration: 1.6s;
   //   transition-timing-function: ease-in-out;
   //   transition-delay: 0s;
   // }
@@ -39,11 +39,11 @@ const MainPageCollectionBlock = props => {
 
   return (
     <StyledBox sx={{ position: 'relative' }}>
-      <Box sx={{ overflow: 'hidden' }}>
+      <Box sx={{ overflow: '' }} >
         {image ? (
           <Image fluid={image.localFile.childImageSharp.fluid} alt={title} />
         ) : (
-          <Box pt="60%" />
+          <Box />
         )}
       </Box>
 
@@ -68,8 +68,8 @@ const MainPageCollectionBlock = props => {
           <Box
             width={['auto', 1 / 3]}
             sx={{
-              ml: [1, '5%'],
-              my: ['auto', '5%'],
+              ml: [1, '0%'],
+              my: ['auto', '0%'],
               backgroundColor: [textBgColor, 'transparent'],
               opacity: [0.8, 1],
               px: ['3%', 0],
@@ -84,20 +84,25 @@ const MainPageCollectionBlock = props => {
                 textDecoration: 'none',
                 display:'block',
                 width:'100vw',
+                height:'100vh',
+                textShadow:'3px 2px 6px black',
+                // border:'1px solid blue',
                 ':hover,:focus,.active': {
                   color: textColor,
                   textDecoration: 'none',
+                  positon:'absolute',
                 },
               }}
+      
             >
               <Heading
                 as="h2"
                 fontSize={[30, 36, 42]}
                 textAlign={['center', 'left']}
-              >
+               style={{textShadow:'3px 2px 6px black',}}>
                 {title}
               </Heading>
-              <Text fontSize={[1, 2, 3]} sx={{ display: ['none', 'block'] }}>
+              <Text fontSize={[1, 2, 3]} sx={{ display: ['none', 'block'] }} style={{textShadow:'3px 2px 6px black',}}>
                 {substrDescription(description, 80)}
               </Text>
             </GatsbyLink>

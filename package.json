@@ -9,11 +9,18 @@
     "url": "https://gatsbystorefront.com/"
   },
   "dependencies": {
-    "@gatsbystorefront/gatsby-theme-storefront-shopify": "^2.1.6",
+    "@gatsbystorefront/gatsby-theme-storefront-shopify": "^2.1.4",
+    "animate.css": "^4.1.0",
+    "babel-plugin-styled-components": "^1.11.1",
     "dotenv": "^8.2.0",
     "gatsby": "^2.13.38",
+    "gatsby-plugin-styled-components": "^3.3.10",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.10.0",
+    "react-tabs": "^3.1.1",
+    "styled-components": "^5.1.1"
   },
   "keywords": [
     "gatsby",

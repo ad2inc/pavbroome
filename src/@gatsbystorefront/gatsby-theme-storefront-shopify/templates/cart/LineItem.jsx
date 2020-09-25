@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import ProductCounter from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/components/ProductCounter';
 import NoImage from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/components/Icons/NoImage';
 import RemoveItemIcon from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/templates/cart/RemoveItemIcon';
-// import formatPrice from '../../utils/formatPrice';
+import formatPrice from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/utils/formatPrice';
 import strings from './strings.json';
 
 const { cartItemPriceLabel, cartItemAriaRemoveFromCart } = strings;
@@ -57,7 +57,7 @@ const LineItem = props => {
     );
   }, [selectedOptions]);
 
-  // const displayPrice = formatPrice(Number(variant.price), locales, currency);
+  const displayPrice = formatPrice(Number(variant.price), locales, currency);
 
   return (
     <React.Fragment>

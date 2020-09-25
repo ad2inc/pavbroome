@@ -11,6 +11,7 @@ import ShoppingBag from './Icons/ShoppingBag';
 import ShoppingCart from './Icons/ShoppingCart';
 import strings from './strings.json';
 import { Link } from 'gatsby'
+import { BsHeartFill } from 'react-icons/bs';
 
 const CustomBox = styled.div`
 }
@@ -269,8 +270,8 @@ const Navbar = (props) => {
           <div style={{display:'inline-block', zIndex:'1', position:'relative' }}><img src={logo} style={{maxHeight:'60px', marginLeft:'3vw'}} /></div>
 
 
-<div style={{position:'absolute', top:'20px', right:'170px'}}>
-<Text
+<div style={{position:'absolute', top:'26px', right:'170px'}}>
+{/* <Text
               as={GatsbyLink}
               aria-label={ariaShoppingCartLabel}
               to="/cart"
@@ -278,10 +279,13 @@ const Navbar = (props) => {
               style={{ textDecoration: 'none', color:'#fff' }}
               ml="auto"
             >
-              
               <ShoppingCart width="30px" height="30px" />
-             
-            </Text>
+            </Text> */}
+
+            <Link className="navbar-item txtshadow" to="/cart/">
+            <BsHeartFill style={{color:'#222', width:'24px', height:'24px',}} />
+            </Link>
+
 </div>
 
           <div id="rolex-clock-desk" style={{width:'150px', height:'70px', position:'absolute', top:'10px', right:'240px', display:'none' }}>

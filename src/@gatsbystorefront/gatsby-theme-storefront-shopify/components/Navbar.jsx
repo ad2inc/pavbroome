@@ -11,7 +11,7 @@ import ShoppingBag from './Icons/ShoppingBag';
 import ShoppingCart from './Icons/ShoppingCart';
 import strings from './strings.json';
 import { Link } from 'gatsby'
-import { BsHeartFill } from 'react-icons/bs';
+import { GrFavorite } from 'react-icons/gr';
 
 const CustomBox = styled.div`
 }
@@ -270,7 +270,7 @@ const Navbar = (props) => {
           <div style={{display:'inline-block', zIndex:'1', position:'relative' }}><img src={logo} style={{maxHeight:'60px', marginLeft:'3vw'}} /></div>
 
 
-<div style={{position:'absolute', top:'26px', right:'170px'}}>
+<div style={{position:'absolute', top:'24px', right:'170px'}}>
 {/* <Text
               as={GatsbyLink}
               aria-label={ariaShoppingCartLabel}
@@ -283,7 +283,7 @@ const Navbar = (props) => {
             </Text> */}
 
             <Link className="navbar-item txtshadow" to="/cart/">
-            <BsHeartFill style={{color:'#222', width:'24px', height:'24px',}} />
+            <GrFavorite style={{color:'#222', width:'26px', height:'26px',}} />
             </Link>
 
 </div>

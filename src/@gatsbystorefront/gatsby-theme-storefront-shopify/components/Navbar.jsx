@@ -159,8 +159,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 @media (max-width: 48rem) {
   #rolex-clock-mobile{display:block !important;}
 }
-@media (min-width: 48rem) {
-  #rolex-clock-desk{display:block !important;}
+@media (max-width: 48rem) {
+  #rolex-clock-desk{visibility:hidden !important;}
 }
 `
 

@@ -100,7 +100,7 @@ const Footer = class extends React.Component {
     <h4 style={{borderBottom:'0px solid #222'}}>Pav &amp; Broome Fine Jewelry</h4>
 <ul className="company-menu">
 <li><a href="https://pavandbroome.com/spotlight/news/"><GiCutDiamond style={{fontSize:'130%'}} /> News &amp; Updates</a></li>
-<li><a href="https://pavandbroome.com/about-us/"><GiCutDiamond style={{fontSize:'130%'}} /> About Us</a></li>
+<li><a href="/about/"><GiCutDiamond style={{fontSize:'130%'}} /> About Us</a></li>
 <li><a href="https://pavandbroome.com/careers/"><GiCutDiamond style={{fontSize:'130%'}} /> Careers</a></li>
 <li><a href="https://pavandbroome.com/testimonials-2/"><GiCutDiamond style={{fontSize:'130%'}} /> Testimonials</a></li>
 <li><a href="https://pavandbroome.com/contact-us/"><GiCutDiamond style={{fontSize:'130%'}} /> Contact Us</a></li>

@@ -15,6 +15,17 @@ module.exports = {
     },
 // Simon G API Importer
 
+
+{
+  // keep as first gatsby-source-filesystem plugin for gatsby image support
+  resolve: 'gatsby-source-filesystem',
+  options: {
+    path: `${__dirname}/src/images`,
+    name: 'images',
+  },
+},
+
+
     {
       resolve: '@gatsbystorefront/gatsby-theme-storefront-shopify',
       options: {

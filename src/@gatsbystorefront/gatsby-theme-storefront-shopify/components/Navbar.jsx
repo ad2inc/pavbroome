@@ -53,23 +53,53 @@ const CustomBox = styled.div`
 .sidebarMenuInner li{
     list-style: none;
     color: #fff;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     font-weight: bold;
-    padding: 20px;
-    // cursor: pointer;
+    padding: 0 40px 0 20px;
+    cursor: pointer;
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    line-height:20px;
+    padding: 0;
+    line-height:20px;
 }
 .sidebarMenuInner li span{
     display: block;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.70);
 }
+
+.sidebarMenuInner li label{
+  padding: 10px 40px 10px 20px;
+  line-height:30px;
+
+}
+
+.sidebarMenuInner li article{
+  background:#eee;
+}
+
 .sidebarMenuInner li a{
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: #fff;
+  font-weight: normal;
+  cursor: pointer;
+  text-decoration: none;
+  display:block;
+  height:100%;
+  width:100%;
+  padding: 5px 40px 5px 20px;
+  line-height:20px;
+}
+
+.sidebarMenuInner li article a{
+    color: #222;
+    font-weight: normal;
     cursor: pointer;
     text-decoration: none;
+    display:block;
+    height:100%;
+    width:100%;
+    padding: 5px 40px 5px 20px;
+    line-height:20px;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
     transform: translateX(0);
@@ -162,6 +192,33 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 @media (max-width: 48rem) {
   #rolex-clock-desk{visibility:hidden !important;}
 }
+
+
+.sidebarMenuInner label {
+  cursor: pointer;
+}
+.sidebarMenuInner input {
+  display: none;
+}
+.sidebarMenuInner article {
+  margin-top: -1px;
+  overflow: hidden;
+  height: 0;
+  transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+}
+
+.sidebarMenuInner input:checked ~ article {
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
 `
 
 
@@ -339,26 +396,124 @@ const Navbar = (props) => {
 
    <div id="sidebarMenu">
 
-   
 
     <ul className="sidebarMenuInner">
    {/* <li><Search width="25px" height="25px" color="secondary" /></li>  */}
       {/* <li>Todd Lambert <span>Web Developer</span></li> */}
 
-
+      
 
       <li>
-              <Link className="navbar-item txtshadow" to="/simong/">
-                Simon G
+      <input id="ac-1" name="accordion-1" type="radio" />
+					<label htmlFor="ac-1">Designer Collections</label>
+					<article className="ac">
+          <Link className="navbar-item txtshadow" to="/simong/">
+                A. Jaffe
                 {/* <span>Learn more about us</span> */}
               </Link>
-      </li>
-      <li>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Benchmark
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Facet Barcelona
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Gabriel Fashion
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                AD Collection
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Memoire
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Michael M
+                {/* <span>Learn more about us</span> */}
+              </Link>
               <Link className="navbar-item txtshadow" to="/parade/">
                 Parade
                 {/* <span>Learn more about us</span> */}
               </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Pav &amp; Broome Signature
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Simon G
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/simong/">
+                Zeghani
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              
+              
+					</article>
+              
       </li>
+      <li>
+      <input id="ac-2" name="accordion-1" type="radio" />
+					<label htmlFor="ac-2">Jewlery</label>
+					<article className="ac">
+
+              <Link className="navbar-item txtshadow" to="/parade/">
+                Parade
+                {/* <span>Learn more about us</span> */}
+              </Link>
+              </article>
+      </li>
+
+      <li>
+					<input id="ac-3" name="accordion-1" type="radio" />
+					<label htmlFor="ac-3">Bridal</label>
+					<article className="ac">
+						
+					</article>
+				</li>
+				<li>
+					<input id="ac-4" name="accordion-1" type="radio" />
+					<label htmlFor="ac-4">Watches</label>
+					<article className="ac">
+						
+					</article>
+				</li>
+
+        <li>
+              <Link className="navbar-item txtshadow" to="/rolex/">
+                Rolex
+                {/* <span>Learn more about us</span> */}
+              </Link>
+				</li>
+
+        <li>
+					<input id="ac-5" name="accordion-1" type="radio" />
+					<label htmlFor="ac-5">Gifts</label>
+					<article className="ac">
+						
+					</article>
+				</li>
+
+        <li>
+					<input id="ac-6" name="accordion-1" type="radio" />
+					<label htmlFor="ac-6">Services</label>
+					<article className="ac">
+						
+					</article>
+				</li>
+
+
+        <li>
+					<input id="ac-7" name="accordion-1" type="radio" />
+					<label htmlFor="ac-7">Education</label>
+					<article className="ac">
+						
+					</article>
+				</li>
 
 
 

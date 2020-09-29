@@ -25,20 +25,37 @@ const CustomBox = styled.div`
 @media (max-width: 48rem) {
  #sidebarr{
     padding-top:200px !important;
+    color:#fff !important;
+    width:100% !important;
  }
 }
 
-.presearch{text-align:center;}
+#sidebarr{
+  width:300px;
+  background: rgba(20,20,20,.99);
+  border-left:1px solid rgba(255, 255, 255, 0.10);
+  // transform: translateX(300px);
+  // transition: transform 300ms ease-in-out;
+  // position: fixed;
+  // z-index:3;
+  // right: 0;
+  // bottom:0;
+  // top:0;
+}
+
+.presearch{text-align:center; color:#fff;}
 .presearch img{
   max-width:100%;
   // max-height:20vh;
   background-attachment: fixed;
   background-size: cover;
-border-radius:12px;
+border-radius:8px;
 }
-.presearch div{max-height:200px}
+// .presearch div{max-height:200px}
 
 link{color:#ff0000;}
+
+.search-results{background:transparent !important; border:0px solid blue !important;}
 
 
 
@@ -86,6 +103,7 @@ const Sidebar = styled(Box)`
   right: 0;
   height: 100vh;
     padding-top:100px;
+    background:#222;
 
 `;
 
@@ -197,7 +215,7 @@ const Search = () => {
                   <Close
                     width="30px"
                     height="30px"
-                    color=""
+                    color="#fff"
                     sx={{ cursor: 'pointer' }}
                   />
                 </Box>
@@ -222,7 +240,7 @@ const Search = () => {
                   />
                 </Box>
               </Flex> */}
-              <Box style={{fontSize:'20px', margin:'20px 0 0 20px'}}>{searchLabel}</Box>
+              <Box style={{fontSize:'20px', margin:'20px 0 0 20px', color:'#fff'}}>{searchLabel}</Box>
               <Box>
                 <Input
                   id="search"
@@ -230,17 +248,18 @@ const Search = () => {
                   value={query}
                   onChange={search}
                   placeholder={searchInputLabel}
-                  style={{fontSize:'80%', width:'90%', margin:'0 auto'}}
+                  style={{fontSize:'80%', color:'#fff', width:'90%', margin:'0 auto'}}
                 />
               </Box>
             
               <Box>
                 {results.map(page => (
-                  <SearchItem key={page.id} m={2}>
-                    <Text
+                  <SearchItem key={page.id} m={2} className="search-results" >
+                    <Text 
                       as={GatsbyLink}
                       variant="searchLink"
                       to={page.shopifyThemePath}
+                      style={{color:'#fff',}}
                     >
                       <Box>{page.title}</Box>
                     </Text>

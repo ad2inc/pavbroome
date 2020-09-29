@@ -36,10 +36,10 @@ const CustomBox = styled.div`
     right: 0;
     bottom:0;
     top:0;
-    width: 250px;
+    width: 300px;
     // margin-top: 60px;
-    transform: translateX(250px);
-    transition: transform 250ms ease-in-out;
+    transform: translateX(300px);
+    transition: transform 300ms ease-in-out;
     // background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
       // background: rgba(196,22,37,.9);
       background: rgba(20,20,20,.99);

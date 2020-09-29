@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 const CustomBox = styled.div`
 padding:1rem 0 1rem 0;
+img{max-width:100%; height:auto; border-radius:12px;}
 `
 const PanelDesigners = () => (
 <CustomBox>
@@ -10,7 +11,7 @@ const PanelDesigners = () => (
       style={{
         display: `grid`,
         gridTemplateColumns: `repeat( auto-fit, minmax(200px, 1fr) )`,
-        gridGap: 20,
+        gridGap: 25,
         justifyContent: "space-around",
         width:'65vw',
         height:'auto',
@@ -25,12 +26,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-          <a href="https://pavandbroome.com/designers-collections/pav-broome-signature-collection-2/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/pav-and-broome-sig-collection-jewelry-search.png" width="260" height="188" alt="pav-and-broome-sig-collection-jewelry-search" /></span></a>
+          <a href="https://pavandbroome.com/designers-collections/pav-broome-signature-collection-2/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/pav-and-broome-sig-collection-jewelry-search.png" alt="pav-and-broome-sig-collection-jewelry-search" /></span></a>
 
         </div>
 
@@ -40,12 +41,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-          <a href="https://pavandbroome.com/designers-jewelry/a-jaffe/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/ajaffe-logo-and-pic-jewelry-search.png" width="260" height="188" alt="AJaffe designer jewelry engagement rings" /></span></a>
+          <a href="https://pavandbroome.com/designers-jewelry/a-jaffe/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/ajaffe-logo-and-pic-jewelry-search.png" alt="AJaffe designer jewelry engagement rings" /></span></a>
 
         </div>
 
@@ -55,12 +56,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-          <a href="https://pavandbroome.com/designers-jewelry/benchmark/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/benchmark-jewelry-search.png" width="260" height="188" alt="benchmark--jewelry-search" /></span></a>
+          <a href="https://pavandbroome.com/designers-jewelry/benchmark/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/benchmark-jewelry-search.png" alt="benchmark--jewelry-search" /></span></a>
 
         </div>
 
@@ -70,12 +71,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-          <a href="https://pavandbroome.com/designers-jewelry/gabriel-co/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/gabriel-co-jewelry-search.png" width="260" height="188" alt="gabriel-co-jewelry-search"/></span></a>
+          <a href="https://pavandbroome.com/designers-jewelry/gabriel-co/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/gabriel-co-jewelry-search.png" alt="gabriel-co-jewelry-search"/></span></a>
 
         </div>
 
@@ -85,12 +86,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-          <a href="/designers-collections/facet-barcelona/"><span><img  src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/facet-barcelona-jewelry-search.png" width="260" height="188" alt="facet-barcelona-jewelry-search" /></span></a>
+          <a href="/designers-collections/facet-barcelona/"><span><img  src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/facet-barcelona-jewelry-search.png" alt="facet-barcelona-jewelry-search" /></span></a>
 
         </div>
 
@@ -102,8 +103,8 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
@@ -120,12 +121,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-<a href="https://pavandbroome.com/designers-collections/memoire/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/memoire-jewelry-search.png" width="260" height="188" alt="memoire-jewelry-search" /></span></a>
+<a href="https://pavandbroome.com/designers-collections/memoire/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/memoire-jewelry-search.png" alt="memoire-jewelry-search" /></span></a>
 
         </div>
 
@@ -135,12 +136,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-<a href="https://pavandbroome.com/designers-collections/michael-m/"><span><img  src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/michael-m-jewelry-search.png" width="260" height="188" alt="michael-m-jewelry-search" /></span></a>
+<a href="https://pavandbroome.com/designers-collections/michael-m/"><span><img  src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/michael-m-jewelry-search.png" alt="michael-m-jewelry-search" /></span></a>
 
 
         </div>
@@ -152,13 +153,13 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
 
-<a href="https://pavandbroome.com/designers-collections/mikimoto/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/mikimoto-jewelry-search.png" width="260" height="188" alt="mikimoto-jewelry-search" /></span></a>
+<a href="https://pavandbroome.com/designers-collections/mikimoto/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/mikimoto-jewelry-search.png" alt="mikimoto-jewelry-search" /></span></a>
         </div>
 
 
@@ -168,29 +169,12 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >
-<a href="/simon-g/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/simon-g-jewelry-search.png"  width="260" height="188" alt="mikimoto-jewelry-search" /></span></a>
-
-        </div>
-
-
-
-
-        <div
-          style={{
-            display: `flex`,
-            flexDirection: `column`,
-            justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
-            borderRadius: 8,
-          }}
-        >
-<a href="https://pavandbroome.com/engagement-rings/parade/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/parade-jewelry-search.png" width="260" height="188" alt="mikimoto-jewelry-search" /></span></a>
+<a href="/simon-g/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/simon-g-jewelry-search.png" alt="mikimoto-jewelry-search" /></span></a>
 
         </div>
 
@@ -202,8 +186,25 @@ const PanelDesigners = () => (
             display: `flex`,
             flexDirection: `column`,
             justifyContent: `space-between`,
-            padding: 0,
-            border: `1px solid #ccc`,
+            padding: '0px',
+            border: `2px solid #ccc`,
+            borderRadius: 8,
+          }}
+        >
+<a href="https://pavandbroome.com/engagement-rings/parade/"><span><img src="https://pavandbroome.com/admin/wp-content/uploads/2020/04/parade-jewelry-search.png"  alt="mikimoto-jewelry-search" /></span></a>
+
+        </div>
+
+
+
+
+        <div
+          style={{
+            display: `flex`,
+            flexDirection: `column`,
+            justifyContent: `space-between`,
+            padding: '0px',
+            border: `2px solid #ccc`,
             borderRadius: 8,
           }}
         >

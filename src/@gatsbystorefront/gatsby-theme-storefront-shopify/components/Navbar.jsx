@@ -539,7 +539,7 @@ const Navbar = (props) => {
 
         <li>
               <Link className="navbar-item txtshadow" to="/rolex/">
-                Rolex
+                <strong>Rolex</strong>
                 {/* <span>Learn more about us</span> */}
               </Link>
 				</li>

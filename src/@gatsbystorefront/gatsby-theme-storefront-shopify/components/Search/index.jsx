@@ -27,6 +27,7 @@ const CustomBox = styled.div`
     padding-top:200px !important;
     color:#fff !important;
     width:100% !important;
+    overflow: auto;
  }
 }
 
@@ -283,6 +284,7 @@ const Search = () => {
 
               <Tabs style={{minWidth:'40vw', width:'68vw', minHeight:'40vh', border:'1px solid #222', borderRadius:'12px', overflow:'hidden',}}>
     <TabList>
+    &nbsp; Browse by: &nbsp;
       <Tab>Designers</Tab>
       <Tab>Jewelry</Tab>
       <Tab>Timepieces</Tab>

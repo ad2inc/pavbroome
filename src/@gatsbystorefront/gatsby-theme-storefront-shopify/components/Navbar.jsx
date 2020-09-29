@@ -55,12 +55,11 @@ const CustomBox = styled.div`
     color: #fff;
     // text-transform: uppercase;
     font-weight: bold;
-    padding: 0 40px 0 20px;
+    padding: 10px 40px 0 20px;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-    line-height:20px;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    line-height:40px;
     padding: 0;
-    line-height:20px;
 }
 .sidebarMenuInner li span{
     display: block;
@@ -69,7 +68,7 @@ const CustomBox = styled.div`
 }
 
 .sidebarMenuInner li label{
-  padding: 10px 40px 10px 20px;
+  padding: 12px 40px 7px 20px;
   line-height:30px;
 
 }
@@ -87,7 +86,7 @@ const CustomBox = styled.div`
   height:100%;
   width:100%;
   padding: 5px 40px 5px 20px;
-  line-height:20px;
+  line-height:40px;
 }
 
 .sidebarMenuInner li article a{
@@ -461,9 +460,37 @@ const Navbar = (props) => {
 					<label htmlFor="ac-2">Jewlery</label>
 					<article className="ac">
 
-              <Link className="navbar-item txtshadow" to="/parade/">
-                Parade
-                {/* <span>Learn more about us</span> */}
+              <Link className="navbar-item txtshadow" to="/">
+                Bracelets
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Earrings
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Fashion Rings
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Mardi Gras Jewelry
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Necklaces/Pendants
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Pearl Jewelry
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Birthstone Jewelry
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Sweet &amp; Petite
+                {/* <span></span> */}
               </Link>
               </article>
       </li>
@@ -472,14 +499,41 @@ const Navbar = (props) => {
 					<input id="ac-3" name="accordion-1" type="radio" />
 					<label htmlFor="ac-3">Bridal</label>
 					<article className="ac">
-						
+                <Link className="navbar-item txtshadow" to="/">
+                Engagement Rings
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Wedding and Anniversary Bands
+                {/* <span></span> */}
+              </Link>
+              
 					</article>
 				</li>
 				<li>
 					<input id="ac-4" name="accordion-1" type="radio" />
 					<label htmlFor="ac-4">Watches</label>
 					<article className="ac">
-						
+              <Link className="navbar-item txtshadow" to="/">
+                Rolex Watches - View Collection
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                TAG Heuer
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Tudor
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Victorinox
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Pav &amp; Broome Signature Collection
+                {/* <span></span> */}
+              </Link>
 					</article>
 				</li>
 
@@ -494,7 +548,38 @@ const Navbar = (props) => {
 					<input id="ac-5" name="accordion-1" type="radio" />
 					<label htmlFor="ac-5">Gifts</label>
 					<article className="ac">
-						
+              <Link className="navbar-item txtshadow" to="/">
+                Gifts For Him
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Gifts For Her
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Jimmy Crystal
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                M-Clip
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Sweet &amp; Petite
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                William Henry
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Gifts Under $500
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Gifts Under $250
+                {/* <span></span> */}
+              </Link>
 					</article>
 				</li>
 
@@ -502,7 +587,34 @@ const Navbar = (props) => {
 					<input id="ac-6" name="accordion-1" type="radio" />
 					<label htmlFor="ac-6">Services</label>
 					<article className="ac">
-						
+              <Link className="navbar-item txtshadow" to="/">
+                Watch Repair
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Appraisals
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Custom Design
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Engraving
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Pearl Restringing
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Jewelry Repair
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Financing
+                {/* <span></span> */}
+              </Link>
 					</article>
 				</li>
 
@@ -511,7 +623,26 @@ const Navbar = (props) => {
 					<input id="ac-7" name="accordion-1" type="radio" />
 					<label htmlFor="ac-7">Education</label>
 					<article className="ac">
-						
+              <Link className="navbar-item txtshadow" to="/">
+                Birthstone Buyer's Guide
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Diamond Buyer's Guide
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Engagement Ring Buyer's Guide
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Gemstone Buyer's Guide
+                {/* <span></span> */}
+              </Link>
+              <Link className="navbar-item txtshadow" to="/">
+                Metal Buyer's Guide
+                {/* <span></span> */}
+              </Link>
 					</article>
 				</li>
 

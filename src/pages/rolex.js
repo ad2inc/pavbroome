@@ -22,7 +22,7 @@ const Rolex = () => (
   </div> */}
 
 
-<iframe title="location map" src="https://pavandbroome.com/testing/rolex.html" width="100%" height="100vh" frameborder="0" ariaHidden="false" style={{width:'100vw',height:'100vh'}}></iframe>
+<iframe title="location map" src="https://pavandbroome.netlify.app/rolex.html" width="100%" height="100vh" frameborder="0" ariaHidden="false" style={{width:'100vw',height:'100vh'}}></iframe>
 
 
 

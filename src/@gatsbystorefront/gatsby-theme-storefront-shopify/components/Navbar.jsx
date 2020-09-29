@@ -410,7 +410,7 @@ const Navbar = (props) => {
                 A. Jaffe
                 {/* <span>Learn more about us</span> */}
               </Link>
-              <Link className="navbar-item txtshadow" to="/simong/">
+              <Link className="navbar-item txtshadow" to="/benchmark/">
                 Benchmark
                 {/* <span>Learn more about us</span> */}
               </Link>
@@ -418,7 +418,7 @@ const Navbar = (props) => {
                 Facet Barcelona
                 {/* <span>Learn more about us</span> */}
               </Link>
-              <Link className="navbar-item txtshadow" to="/simong/">
+              <Link className="navbar-item txtshadow" to="/gabriel-fashion/">
                 Gabriel Fashion
                 {/* <span>Learn more about us</span> */}
               </Link>

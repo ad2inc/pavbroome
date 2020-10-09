@@ -2,7 +2,7 @@ import React from 'react';
 import { Flex, Box } from 'rebass';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Slide } from 'react-slideshow-image'
+import { Fade } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import Image from '../../../../Components/Image'
 // import Slider from '../../components/Slider'
@@ -117,7 +117,7 @@ const MainPage = props => {
     duration: 4000,
     transitionDuration: 500,
     infinite: true,
-    indicators: false,
+    indicators: true,
     easing: 'easeIn',
 
     // prevArrow: <div style={{width: "30px", marginRight: "-30px"}}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff"><path d="M242 180.6v-138L0 256l242 213.4V331.2h270V180.6z"/></svg></div>,
@@ -143,9 +143,9 @@ const MainPage = props => {
 <>
 
 
-<div style={{position:'relative', overflow:'', height:''}}>
+<div style={{position:'relative', overflow:'', height:'', zIndex:'0'}}>
         {/* <Slide easing="ease"> */}
-        <Slide {...properties}>
+        <Fade {...properties}>
 
           <div className="each-slide">
     
@@ -188,7 +188,7 @@ const MainPage = props => {
               <Image alt="test" filename="slide-3.jpg" />
             </div>
           </div> */}
-        </Slide>
+        </Fade>
       </div>
 
 

@@ -4,8 +4,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
-import Image from '../../../.../../../components/Image'
-import Slider from '../../../.../../../components/Slider'
+import Image from '../../../../Components/Image'
+// import Slider from '../../components/Slider'
 
 import MainPageCarousel from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/templates/main/MainPageCarousel';
 import MainPageCollectionBlock from '@gatsbystorefront/gatsby-theme-storefront-shopify/src/templates/main/MainPageCollectionBlock';
@@ -139,7 +139,7 @@ const MainPage = props => {
 
 
 
-    <div style={{display:'', width:'100%', paddingTop:'15px', overflow:'', border:'0px solid blue',}}>
+    <div style={{display:'', width:'100%', paddingTop:'12px', overflow:'', border:'0px solid blue',}}>
 <>
 
 

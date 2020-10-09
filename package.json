@@ -13,6 +13,7 @@
     "animate.css": "^4.1.0",
     "babel-plugin-styled-components": "^1.11.1",
     "dotenv": "^8.2.0",
+    "fontsource-merriweather": "^3.0.9",
     "gatsby": "^2.13.38",
     "gatsby-background-image": "^1.1.2",
     "gatsby-plugin-styled-components": "^3.3.10",

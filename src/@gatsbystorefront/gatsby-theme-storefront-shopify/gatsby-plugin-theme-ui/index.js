@@ -38,8 +38,8 @@ export const preset = {
     bp => `@media only screen and (min-width: ${bp})`
   ),
   fonts: {
-    // body: '"Work Sans", system-ui, sans-serif',
-    heading: '"Kanit", system-ui, sans-serif',
+    body: '"MerriWeather", system-ui, sans-serif',
+    heading: '"MerriWeather", system-ui, sans-serif',
     // monospace: 'Menlo, monospace',
     // sans: 'Tahoma, Geneva, sans-serif',
     // serif: '"Palatino Linotype", "Book Antiqua", Palatino, serif',

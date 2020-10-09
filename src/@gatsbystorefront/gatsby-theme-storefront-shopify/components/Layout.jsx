@@ -19,6 +19,7 @@ import {
 import Navbar from './Navbar';
 import Footer from './Footer';
 import theme from '../gatsby-plugin-theme-ui/index';
+import "fontsource-merriweather"
 
 import './reset.css';
 

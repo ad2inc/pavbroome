@@ -221,14 +221,14 @@ const MainPage = props => {
 
 <p>TUDOR offers mechanical watches with sophisticated style and proven reliability. The brand was established by Rolex founder Hans Wilsdorf as a watch with the style, character and quality of a Rolex, but at a more accessible price point.</p>
 
+<div style={{position:'relative',}}>
 <a href="/tudor/">
-<Image alt="test" filename="tudor-banner.jpg" />
-</a>
-<br />
+
 <a href="/tudor" style={{
-  position:'relative',
-  top:'-10vh',
-  left:'65%',
+  position:'absolute',
+  top:'15%',
+  right:'65px',
+  zIndex:'1',
 backgroundColor: '#cad3d6',
 padding: '8px 15px',
 border: '0.5px solid #486d69',
@@ -237,6 +237,10 @@ fontSize: '1.1em',
 textDecoration: 'none',
 margin:'2rem 0',
 }}>View the Collection</a>
+<Image alt="test" filename="tudor-banner.jpg" />
+</a>
+</div>
+
 </div>
 
 

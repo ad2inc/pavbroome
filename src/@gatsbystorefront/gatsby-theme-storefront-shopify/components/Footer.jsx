@@ -53,11 +53,25 @@ footer a{color:#fff;}
 .flex-item{width:100vw;}
 .flex-item iframe{height:350px;}
 .socialcolumn{padding:4rem 0;}
-}
+
+
+.company-menu li a{
+  display:block;
+  filter: brightness(100%);
+  background:#222;
+  padding:1rem;
+  border-radius:12px;
+  }
 
 
 
 }
+
+
+}
+
+
+
 `
 
 
@@ -96,7 +110,7 @@ const Footer = class extends React.Component {
  </div> */}
 
  <ul className="flex-container">
-  <li className="flex-item" style={{textAlign:'left', padding:'2rem', paddingTop:'0', width:'28%'}}>
+  <li className="flex-item" style={{textAlign:'left', padding:'2rem', paddingTop:'0',}}>
     <h4 style={{borderBottom:'0px solid #222'}}>Pav &amp; Broome Fine Jewelry</h4>
 <ul className="company-menu">
 <li><a href="https://pavandbroome.com/spotlight/news/"><GiCutDiamond style={{fontSize:'130%'}} /> News &amp; Updates</a></li>

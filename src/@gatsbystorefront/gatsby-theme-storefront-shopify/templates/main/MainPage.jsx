@@ -21,54 +21,51 @@ const CustomBox = styled.div`
 
 
 
+  // .each-slide span {
+	// padding: 20px;
+	// font-size: 20px;
+	// background: #efefef;
+	// text-align: center;
+	// position:relative;
+	// z-index:20;
+	// color:#ff0000;
+	// border:0px solid blue;
+  // // bottom:10%;
+  // right:0;
+  // top:200px;
+
+  // width:200px;
+  // display:none;
+
+  // }
+
+  // .each-slide img{
+  //   position:relative;
+  // }
+  // .each-slide img:after{
+  //   display:block;
+  //   content: ('');
+  //   position:absolute;
+  //   z-index:90;
+  //   border:1px solid yellow;
+  // }
 
 
 
 
+  @media (max-width: 48rem) {
 
-// .each-slide > div {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-size: cover;
-//   height: 400px;
-//   text-align:center;
-// }
+.pageTop{
+  padding-top:52px !important;
+  // border:3px solid red !important;
+}
 
-
-
-
-  
-  .each-slide span {
-	padding: 20px;
-	font-size: 20px;
-	background: #efefef;
-	text-align: center;
-	position:relative;
-	z-index:20;
-	color:#ff0000;
-	border:0px solid blue;
-  // bottom:10%;
-  right:0;
-  top:200px;
-
-  width:200px;
-  display:none;
+#tudorcta{
+  top:-1rem !important;
+  right:25px !important;
+}
 
   }
-
-  .each-slide img{
-    position:relative;
-  }
-  .each-slide img:after{
-    display:block;
-    content: ('');
-    position:absolute;
-    z-index:90;
-    border:1px solid yellow;
-  }
-
-
 
 
 
@@ -140,7 +137,7 @@ const MainPage = props => {
 
 
 
-    <div style={{display:'', width:'100%', paddingTop:'12px', overflow:'', border:'0px solid blue',}}>
+    <div className="pageTop" style={{display:'', width:'100%', paddingTop:'12px', overflow:'', border:'0px solid blue',}}>
 <>
 
 
@@ -156,7 +153,7 @@ const MainPage = props => {
                 
                 </div> */}
 
-<a href="" style={{color:'#fff'}}><Image alt="test" filename="rolex-banner1.jpg" /></a>
+<a href="/rolex/" style={{color:'#fff'}}><Image alt="test" filename="rolex-banner1.jpg" /></a>
             </div>
  
 
@@ -198,7 +195,7 @@ const MainPage = props => {
     </div>
 
 
-<div style={{background:'#222', color:'#fff', width:'80%', margin:'1rem auto', padding:'2px 2%', borderRadius:'12px', textAlign:'center'}}>The health and safety of our employees, customers and communities is our top priority. &nbsp; <a href="">Learn More</a></div>
+<div style={{background:'#222', color:'#fff', width:'90%', margin:'1rem auto', padding:'1% 2%', borderRadius:'12px', textAlign:'center'}}>The health and safety of our employees, customers and communities is our top priority. &nbsp; <a href="">Learn More</a></div>
 
 
 <div className="container" style={{padding:'0rem 4%'}}>
@@ -224,7 +221,7 @@ const MainPage = props => {
 <div style={{position:'relative',}}>
 <a href="/tudor/">
 
-<a href="/tudor" style={{
+<a id="tudorcta" href="/tudor" style={{
   position:'absolute',
   top:'15%',
   right:'65px',

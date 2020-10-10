@@ -42,7 +42,8 @@ const CustomBox = styled.div`
     transition: transform 300ms ease-in-out;
     // background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
       // background: rgba(196,22,37,.9);
-      background: rgba(20,20,20,.99);
+      // background: rgba(20,20,20,.99);
+      background: #264C5A;
       border-left:1px solid rgba(255, 255, 255, 0.10);
 }
 .sidebarMenuInner{
@@ -400,7 +401,7 @@ const Navbar = (props) => {
    <div id="sidebarMenu" style={{position:'', zIndex:'1'}}>
 
 
-    <ul className="sidebarMenuInner" style={{position:'absolute', zIndex:'1',}}>
+    <ul className="sidebarMenuInner" style={{position:'absolute', zIndex:'1', background:'#222'}}>
    {/* <li><Search width="25px" height="25px" color="secondary" /></li>  */}
       {/* <li>Todd Lambert <span>Web Developer</span></li> */}
 

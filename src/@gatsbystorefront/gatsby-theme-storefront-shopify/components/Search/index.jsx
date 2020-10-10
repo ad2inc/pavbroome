@@ -34,6 +34,7 @@ const CustomBox = styled.div`
 #sidebarr{
   width:300px;
   background: rgba(20,20,20,.99);
+  // background:#264C5A;
   border-left:1px solid rgba(255, 255, 255, 0.10);
   // transform: translateX(300px);
   // transition: transform 300ms ease-in-out;

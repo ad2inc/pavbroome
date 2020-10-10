@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { FaFacebookSquare, FaTwitterSquare, FaGoogle, FaPinterestSquare,FaInstagramSquare, FaYoutubeSquare } from 'react-icons/fa'
+import Image from '../../../Components/Image'
 
 import { GiCutDiamond } from 'react-icons/gi'
 // import "animate.css/animate.min.css"
@@ -129,7 +130,12 @@ const Footer = class extends React.Component {
  
   <h4 style={{borderBottom:'0px solid #222'}}>Our Location</h4>
 
-<iframe title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.1870005935!2d-89.09477208492169!3d30.374047409881573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889c17d83754533d%3A0xbc27b3c5fcecdf42!2sPav%20%26%20Broome%20Fine%20Jewelry-Official%20Rolex%20Jeweler!5e0!3m2!1sen!2sus!4v1596421047153!5m2!1sen!2sus" width="100%" height="200" frameborder="0" ariaHidden="false"></iframe>
+{/* <iframe title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.1870005935!2d-89.09477208492169!3d30.374047409881573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889c17d83754533d%3A0xbc27b3c5fcecdf42!2sPav%20%26%20Broome%20Fine%20Jewelry-Official%20Rolex%20Jeweler!5e0!3m2!1sen!2sus!4v1596421047153!5m2!1sen!2sus" width="100%" height="200" frameborder="0" ariaHidden="false"></iframe> */}
+
+<a href="https://g.page/pavandbroome?gm" target="_blank">
+<Image alt="Our Location on Google Maps" filename="location-map.png" />
+</a>
+
 <br />
 1912 25th Ave, Gulfport, MS 39501<br />
 Phone: <a className="call-button btn" href="tel:2288633699">(228) 863-3699</a>

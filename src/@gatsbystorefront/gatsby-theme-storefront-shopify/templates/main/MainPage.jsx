@@ -221,11 +221,14 @@ const MainPage = props => {
 <div style={{position:'relative',}}>
 <a href="/tudor/">
 
+
+
+<Image alt="test" filename="tudor-banner.jpg" />
+
 <a id="tudorcta" href="/tudor" style={{
   position:'absolute',
   top:'15%',
   right:'65px',
-  zIndex:'1',
 backgroundColor: '#cad3d6',
 padding: '8px 15px',
 border: '0.5px solid #486d69',
@@ -234,7 +237,7 @@ fontSize: '1.1em',
 textDecoration: 'none',
 margin:'2rem 0',
 }}>View the Collection</a>
-<Image alt="test" filename="tudor-banner.jpg" />
+
 </a>
 </div>
 

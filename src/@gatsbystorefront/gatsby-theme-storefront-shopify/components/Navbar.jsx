@@ -190,7 +190,11 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 @media (max-width: 48rem) {
   #rolex-clock-desk{visibility:hidden !important;}
+
+  .sidebarMenuInner{overflow:scroll !important;}
+
 }
+
 
 
 .sidebarMenuInner label {
@@ -393,10 +397,10 @@ const Navbar = (props) => {
 
   
 
-   <div id="sidebarMenu">
+   <div id="sidebarMenu" style={{position:'', zIndex:'1'}}>
 
 
-    <ul className="sidebarMenuInner">
+    <ul className="sidebarMenuInner" style={{position:'absolute', zIndex:'1',}}>
    {/* <li><Search width="25px" height="25px" color="secondary" /></li>  */}
       {/* <li>Todd Lambert <span>Web Developer</span></li> */}
 
@@ -651,7 +655,7 @@ const Navbar = (props) => {
     </ul>
 
     <div id="rolex-clock-mobile" style={{width:'150px', height:'70px', position:'absolute', bottom:'5vh', left:'20%', display:'none' }}>
-<a href="https://pavandbroome.com/rolex/" style={{position:'absolute', zIndex:'1', top:'0', left:'0', display:'block', height:'70px', width:'150px',  border:'0px solid red',}}>
+<a href="https://pavandbroome.com/rolex/" style={{position:'absolute', zIndex:'0', top:'0', left:'0', display:'block', height:'70px', width:'150px',  border:'0px solid red',}}>
 </a>
  <iframe id="rolex_retailer" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', top:'0', left:'0', scroll:'none', zIndex:'0'}}></iframe>
 </div>

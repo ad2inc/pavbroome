@@ -59,10 +59,12 @@ footer a{color:#fff;}
   display:block;
   filter: brightness(100%);
   background:#222;
-  padding:1rem;
+  padding:1rem 2rem;
   border-radius:12px;
+  font-size:150%;
   }
 
+  .company-name{text-align:center;}
 
 
 }
@@ -111,13 +113,13 @@ const Footer = class extends React.Component {
 
  <ul className="flex-container">
   <li className="flex-item" style={{textAlign:'left', padding:'2rem', paddingTop:'0',}}>
-    <h4 style={{borderBottom:'0px solid #222'}}>Pav &amp; Broome Fine Jewelry</h4>
+    <h4 className="company-name" style={{borderBottom:'0px solid #222'}}>Pav &amp; Broome Fine Jewelry</h4>
 <ul className="company-menu">
-<li><a href="https://pavandbroome.com/spotlight/news/"><GiCutDiamond style={{fontSize:'130%'}} /> News &amp; Updates</a></li>
-<li><a href="/about/"><GiCutDiamond style={{fontSize:'130%'}} /> About Us</a></li>
-<li><a href="https://pavandbroome.com/careers/"><GiCutDiamond style={{fontSize:'130%'}} /> Careers</a></li>
-<li><a href="https://pavandbroome.com/testimonials-2/"><GiCutDiamond style={{fontSize:'130%'}} /> Testimonials</a></li>
-<li><a href="https://pavandbroome.com/contact-us/"><GiCutDiamond style={{fontSize:'130%'}} /> Contact Us</a></li>
+<li><a href="https://pavandbroome.com/spotlight/news/"><GiCutDiamond style={{fontSize:'130%', marginRight:'10px'}} /> News &amp; Updates</a></li>
+<li><a href="/about/"><GiCutDiamond style={{fontSize:'130%', marginRight:'10px'}} /> About Us</a></li>
+<li><a href="https://pavandbroome.com/careers/"><GiCutDiamond style={{fontSize:'130%', marginRight:'10px'}} /> Careers</a></li>
+<li><a href="https://pavandbroome.com/testimonials-2/"><GiCutDiamond style={{fontSize:'130%', marginRight:'10px'}} /> Testimonials</a></li>
+<li><a href="https://pavandbroome.com/contact-us/"><GiCutDiamond style={{fontSize:'130%', marginRight:'10px'}} /> Contact Us</a></li>
 {/* <li><a href="https://pavandbroome.com/site-map">Site Map</a></li> */}
 </ul>
 

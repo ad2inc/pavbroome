@@ -106,43 +106,16 @@ Sunday
 Closed</p>
 
 
-<div style={{display:'block', height:'30vh', border:'0px solid blue'}}></div>
+<iframe title="location map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.1870005935!2d-89.09477208492169!3d30.374047409881573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889c17d83754533d%3A0xbc27b3c5fcecdf42!2sPav%20%26%20Broome%20Fine%20Jewelry-Official%20Rolex%20Jeweler!5e0!3m2!1sen!2sus!4v1596421047153!5m2!1sen!2sus" width="100%" height="200" frameborder="0" ariaHidden="false"></iframe>
 
-{/* <ul className="sidebarMenuInner">
-				<li>
-					<input id="ac-1" name="accordion-1" type="radio" />
-					<label htmlFor="ac-1">About us</label>
-					<article className="ac">
-						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.</p>
-					</article>
-				</li>
 
-				<li>
-					<input id="ac-2" name="accordion-1" type="radio" />
-					<label htmlFor="ac-2">How we work</label>
-					<article className="ac">
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
-					</article>
-				</li>
-				<li>
-					<input id="ac-3" name="accordion-1" type="radio" />
-					<label htmlFor="ac-3">References</label>
-					<article className="ac">
-						<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste htmlFor murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
-					</article>
-				</li>
-				<li>
-					<input id="ac-4" name="accordion-1" type="radio" />
-					<label htmlFor="ac-4">Contact us</label>
-					<article className="ac">
-						<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-					</article>
-				</li>
-			</ul> */}
+{/* <div style={{display:'block', height:'30vh', border:'0px solid blue'}}></div> */}
 
 
 
-{/* <Contact /> */}
+
+
+<Contact />
 	
     </div>
     </section>

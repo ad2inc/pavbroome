@@ -204,7 +204,7 @@ const Search = () => {
         <React.Fragment>
           <Sidebar id="sidebarr" width={[1, 1 / 3, 1 / 4]} sx={{ bg: 'white' }}>
 
-          <div onClick={toggleSidebar} style={{position:'absolute', top:'20px', right:'104px' }}>
+          <div onClick={toggleSidebar} style={{position:'absolute', top:'26px', right:'104px' }}>
           <Flex
                 onClick={toggleSidebar}
                 justifyContent="space-between"

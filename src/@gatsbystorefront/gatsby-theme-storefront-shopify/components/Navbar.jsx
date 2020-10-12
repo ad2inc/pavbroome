@@ -117,7 +117,7 @@ input[type=checkbox] {
     z-index: 4;
     height: 100%;
     width: 100%;
-    top: 22px;
+    top: 30px;
     right: 22px;
     height: 42px;
     width: 42px;
@@ -331,7 +331,7 @@ const Navbar = (props) => {
           <div style={{display:'inline-block', zIndex:'1', position:'relative' }}><img src={logo} style={{maxHeight:'60px', marginLeft:'3vw'}} /></div>
 
 
-<div style={{position:'fixed', top:'24px', right:'170px'}}>
+<div style={{position:'fixed', top:'30px', right:'170px'}}>
 {/* <Text
               as={GatsbyLink}
               aria-label={ariaShoppingCartLabel}
@@ -362,7 +362,7 @@ const Navbar = (props) => {
 
 
 
- <iframe id="rolex-clock-desk" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', scroll:'none', zIndex:'0', top:'12px', right:'240px', border:'3px solid #D3DADD'}}></iframe> 
+ <iframe title="Rolex Watches" id="rolex-clock-desk" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', scroll:'none', zIndex:'0', top:'12px', right:'240px', border:'3px solid #D3DADD'}}></iframe> 
  {/* </div> */}
 
  <Link to="/rolex/" style={{position:'absolute', zIndex:'0', border:'0px solid #ccc', display:'block', width:'150px', top:'12px', right:'240px', height:'70px' }}></Link>
@@ -381,7 +381,7 @@ const Navbar = (props) => {
             <Menu menu={menu} />
           </Box> */}
           
-          <div style={{position:'fixed', top:'20px', right:'100px'}}><Search width="25px" height="25px" color="secondary" /></div>
+          <div style={{position:'fixed', top:'26px', right:'100px'}}><Search width="25px" height="25px" color="secondary" /></div>
           
 </Box>
     </Nav>
@@ -658,7 +658,7 @@ const Navbar = (props) => {
     <div id="rolex-clock-mobile" style={{width:'150px', height:'70px', position:'absolute', bottom:'5vh', left:'20%', display:'none' }}>
 <a href="https://pavandbroome.com/rolex/" style={{position:'absolute', zIndex:'0', top:'0', left:'0', display:'block', height:'70px', width:'150px',  border:'0px solid red',}}>
 </a>
- <iframe id="rolex_retailer" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', top:'0', left:'0', scroll:'none', zIndex:'0'}}></iframe>
+ <iframe title="Rolex Watches" id="rolex_retailer" src="https://static.rolex.com/retailers/clock/?colour=gold&amp;apiKey=d8039e0fd25ac17bfcc3a0957d0c06bd&amp;lang=en_us"  scrolling="no" frameBorder="no" style={{width:'150px', height:'70px', border:'0', margin:'0', padding:'0', overflow:'hidden', position:'absolute', top:'0', left:'0', scroll:'none', zIndex:'0'}}></iframe>
 </div>
 
 

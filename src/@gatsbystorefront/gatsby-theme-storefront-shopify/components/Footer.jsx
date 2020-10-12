@@ -177,7 +177,7 @@ Phone: <a className="call-button btn" href="tel:2288633699">(228) 863-3699</a>
        
 
 
-<div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: '90%'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
+<div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: '90%'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy-policy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div>
 
 
 

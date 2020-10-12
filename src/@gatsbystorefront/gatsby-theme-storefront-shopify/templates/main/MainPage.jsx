@@ -198,23 +198,30 @@ const MainPage = props => {
 <div style={{background:'#222', color:'#fff', width:'90%', margin:'1rem auto', padding:'1% 2%', borderRadius:'12px', textAlign:'center'}}>The health and safety of our employees, customers and communities is our top priority. &nbsp; <a href="">Learn More</a></div>
 
 
-<div className="container" style={{padding:'0rem 4%'}}>
+<div className="container" style={{padding:'0rem 4%', position:'relaltive'}}>
 
 <h1 style={{textAlign: 'center', fontSize:'2rem', margin:'2rem 0'}}>Pav &amp; Broome Fine Jewelry <br /><span style={{margin:'0 auto', textAlign:'center', fontSize:'1.3rem', lineHeight:'1.8rem', width:'90vw', padding:'0', display:'block'}}>The Coast's Official <em>Rolex</em> Jeweler has been the Gulf Coast’s source for fine diamonds &amp; gemstones, gifts, accessories, jewelry and watches for more than 40 years.</span></h1>
 
-<p>We are at your service to help you choose the <em>Rolex</em> watch that best suits you, within the wide range of <em>Rolex</em> timepieces.<wbr /> Our store in Gulfport is recognized as an Official <em>Rolex </em>Retailer, as we only sell genuine <em>Rolex</em> timepieces. </p>
+<input type="checkbox" name="one" id="item-1" />
+We are at your service to help you choose the <em>Rolex</em> watch that best suits you, within the wide range of <em>Rolex</em> timepieces. <label className="intro" htmlFor="item-1"></label>
+
+
+  <div className="hide">
+
+
+ <p>Our store in Gulfport is recognized as an Official <em>Rolex </em>Retailer, as we only sell genuine <em>Rolex</em> timepieces. </p>
 <p>We understand what your investment in fine jewelry means, whether a gift for a momentous occasion or the timeless symbol of your undying love &amp; promise of forever and our commitment to you is your complete satisfaction throughout the process.</p>
 <p>Pav &amp; Broome Fine Jewelry is not only a local, family-owned business but a staff of certified gemologists, horologists, craftsmen, jewelers and artisans prepared to guide you through the process of designing or finding the perfect piece for your occasion and answering any questions or concerns you may have along the way and forever after.</p>
 <p>We offer a complete presentation that provides in-depth insight into the <a href="https://pavandbroome.com/services/education/diamond-buyers-guide/">5 C’s </a>(cut, color clarity, carat weight and, often the most important, confidence). We also show you diamond grading reports and explain why they’re so critical to understanding a diamond’s real value. Finally, we encourage you to shop around. We’re confident it will only affirm your decision to make us your premier jeweler.</p>
 <p>We have enjoyed being a part of the Coast and this community’s special moments for generations and look forward to continuing to celebrate and grow with your family for many years to come.</p>
 <p style={{textAlign: 'center', color:'#244d56', fontSize:'110%'}}><strong>Visit us today to see why Pav &amp; Broome Fine Jewelry is where the Coast gets engaged!</strong></p>
+</div>
 
 
+<div id="tudorbox" style={{justifyContent: 'space-around', marginTop:'2rem', borderTop:'1px solid #666', paddingTop:'1rem', justifyContent:'center'}}>
 
-<div id="tudorbox" style={{justifyContent: 'space-around', maxWidth:'90vw', borderTop:'1px solid #666', paddingTop:'1rem', justifyContent:'center'}}>
 
-
-<h3 style={{fontSize:'150% !important'}}>Tudor Watches</h3>
+<h2 style={{textAlign:'center', fontSize:'150% !important'}}>Tudor Watches</h2>
 
 <p>TUDOR offers mechanical watches with sophisticated style and proven reliability. The brand was established by Rolex founder Hans Wilsdorf as a watch with the style, character and quality of a Rolex, but at a more accessible price point.</p>
 
@@ -247,16 +254,25 @@ margin:'2rem 0',
 
 
 
+
+
+{/* end of container */}
+</div>
+
+
+
+<h2 style={{textAlign:'center', marginTop:'2rem'}}>New Arrivals:</h2>
+<div className="test flex" style={{padding:'0 4% 2rem 4%', border:'0px solid'}}>
+  <div className="column"><a href="">ONE</a></div>
+  <div className="column"><a href="">TWO</a></div>
+  <div className="column"><a href="">THREE</a></div>
+  <div className="column"><a href="">FOUR</a></div>
+  <div className="column"><a href="">FIVE</a></div>
 </div>
 
 
 
 
-
-
-
-
-<hr />
 
 
 

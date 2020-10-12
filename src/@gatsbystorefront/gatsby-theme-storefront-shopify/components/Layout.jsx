@@ -22,6 +22,8 @@ import theme from '../gatsby-plugin-theme-ui/index';
 import "fontsource-merriweather"
 
 import './reset.css';
+// import "../../../css/index.css"
+import "../../../css/default.css"
 
 const initializeReactGA = googleAnalyticsId => {
   ReactGA.initialize(googleAnalyticsId);

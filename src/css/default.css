@@ -68,7 +68,10 @@ a {
   }
 
 
+/* body{color: rgb(36, 77, 86, 1);} */
+body{color:#333;}
 
+/* h1,h2,h3,h4,h5,h6{color:#2b2b2b;} */
 
 
     /* @media (max-width: 48em) {  
@@ -114,9 +117,10 @@ a {
       .flex {
           display:flex;
           flex-direction: var(--flexDirection);
-          
+          flex-wrap: wrap;
       }
-      .flex > * { border:1px solid; flex: 1 1 90px; flex-wrap:wrap; text-align: center;}
+      
+      .flex > * { border:1px solid; flex: 1 1 90px; text-align: center;}
 
       /* .flex div.column{margin:1rem; border:1px solid; flex: 1 1 30%; text-align: center;} */
 
@@ -124,14 +128,16 @@ a {
 
       label.intro::before {
        content: "[Read More] →";
+       font-weight: bold;
       }
       label.intro:hover {
         text-decoration: underline;
         cursor: pointer;
       }
-      input {
+      input.uiInput {
         position: absolute;
         left: -999em;
+        visibility: hidden;
       }
       .hide {
         max-height: 0;
@@ -151,6 +157,26 @@ input[type="checkbox"]:checked ~ label.intro::before  {
     content: "";
      }
 
+
+
+     h1,  h1 span {
+        font-size: clamp(var(--min), var(--val), var(--max));
+        /* padding-left: clamp(0, 10em, 2em);
+        padding-right: clamp(0, 10em, 2em); */
+      }
+      
+      h1 {
+        --min: 1rem; 
+        --val: 2rem; 
+        --max: 3em; 
+      }
+      
+      h1 span {
+        --min: 50%;
+        --val: 70%;
+        --max: 120%;
+
+      }
 
 
 

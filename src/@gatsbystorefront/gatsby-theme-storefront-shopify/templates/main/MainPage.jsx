@@ -195,14 +195,16 @@ const MainPage = props => {
     </div>
 
 
-<div style={{background:'#222', color:'#fff', width:'90%', margin:'1rem auto', padding:'1% 2%', borderRadius:'12px', textAlign:'center'}}>The health and safety of our employees, customers and communities is our top priority. &nbsp; <a href="">Learn More</a></div>
+<div style={{background:'#222', color:'#fff', width:'90%', margin:'1rem auto', padding:'1% 2%', borderRadius:'12px', textAlign:'center'}}>The health and safety of our employees, customers and communities is our top priority. &nbsp; <a style={{color:'#fff'}} href="">Learn More</a></div>
 
 
 <div className="container" style={{padding:'0rem 4%', position:'relaltive'}}>
 
-<h1 style={{textAlign: 'center', fontSize:'2rem', margin:'2rem 0'}}>Pav &amp; Broome Fine Jewelry <br /><span style={{margin:'0 auto', textAlign:'center', fontSize:'1.3rem', lineHeight:'1.8rem', width:'90vw', padding:'0', display:'block'}}>The Coast's Official <em>Rolex</em> Jeweler has been the Gulf Coast’s source for fine diamonds &amp; gemstones, gifts, accessories, jewelry and watches for more than 40 years.</span></h1>
+<h1 style={{textAlign: 'center',  margin:'0 0 1rem 0'}}>Pav &amp; Broome Fine Jewelry <br />
+<span style={{textAlign:'center', margin:'0 auto', display:'block', maxWidth:'78vw'}}>The Coast's Official <em>Rolex</em> Jeweler has been the Gulf Coast’s source for fine diamonds &amp; gemstones, gifts, accessories, jewelry and watches for more than 40 years.</span>
+</h1>
 
-<input type="checkbox" name="one" id="item-1" />
+<input className="uiInput" type="checkbox" name="one" id="item-1" />
 We are at your service to help you choose the <em>Rolex</em> watch that best suits you, within the wide range of <em>Rolex</em> timepieces. <label className="intro" htmlFor="item-1"></label>
 
 

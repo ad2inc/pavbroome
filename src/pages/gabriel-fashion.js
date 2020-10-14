@@ -16,7 +16,7 @@ const GabrielFashion = () => (
 
 
 
-    <div className="container" style={{padding: '40px 2rem 0 2rem',}}>
+    <div className="container" style={{padding: '80px 2rem 0 2rem', zIndex:'0', position:'relative',}}>
 <h2><strong>Gabriel Fashion Rings
 </strong></h2>
 

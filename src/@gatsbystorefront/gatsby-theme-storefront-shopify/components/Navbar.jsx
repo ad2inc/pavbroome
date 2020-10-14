@@ -233,7 +233,7 @@ const NavbarBase = styled.nav`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 3;
 `;
 
 const Nav = styled(NavbarBase)`
@@ -398,7 +398,7 @@ const Navbar = (props) => {
 
   
 
-   <div id="sidebarMenu" style={{position:'', zIndex:'1'}}>
+   <div id="sidebarMenu" style={{position:'',}}>
 
 
     <ul className="sidebarMenuInner" style={{position:'absolute', zIndex:'1', background:'#222'}}>
@@ -462,7 +462,7 @@ const Navbar = (props) => {
       </li>
       <li>
       <input id="ac-2" name="accordion-1" type="radio" />
-					<label htmlFor="ac-2">Jewlery</label>
+					<label htmlFor="ac-2">Jewelry</label>
 					<article className="ac">
 
               <Link className="navbar-item txtshadow" to="/">

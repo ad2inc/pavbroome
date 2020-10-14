@@ -161,8 +161,6 @@ input[type="checkbox"]:checked ~ label.intro::before  {
 
      h1,  h1 span {
         font-size: clamp(var(--min), var(--val), var(--max));
-        /* padding-left: clamp(0, 10em, 2em);
-        padding-right: clamp(0, 10em, 2em); */
       }
       
       h1 {
@@ -175,7 +173,6 @@ input[type="checkbox"]:checked ~ label.intro::before  {
         --min: 50%;
         --val: 70%;
         --max: 120%;
-
       }
 
 

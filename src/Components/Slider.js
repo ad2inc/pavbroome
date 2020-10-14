@@ -17,17 +17,6 @@ import styled from "styled-components"
 
 const CustomBox = styled.div`
 
-
-
-
-
-
-
-
-
-
-
-
 .each-slide > div {
 	display: flex;
 	align-items: center;

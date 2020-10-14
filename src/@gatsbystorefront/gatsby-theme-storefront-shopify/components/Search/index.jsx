@@ -202,7 +202,7 @@ const Search = () => {
       />
       {showSidebar ? (
         <React.Fragment>
-          <Sidebar id="sidebarr" width={[1, 1 / 3, 1 / 4]} sx={{ bg: 'white' }}>
+          <Sidebar id="sidebarr" width={[1, 1 / 3, 1 / 4]} sx={{ bg: 'white', zIndex:'2' }}>
 
           <div onClick={toggleSidebar} style={{position:'absolute', top:'26px', right:'104px' }}>
           <Flex

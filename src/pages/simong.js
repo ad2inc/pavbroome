@@ -9,10 +9,8 @@ export default ({ data }) => (
     <Layout>
 
 {/* <SlideShow /> */}
-{/* <br /><br />
-<br /><br />
-Boom
-<Image filename="pb-logo-color.png" /> */}
+
+{/* <Image filename="pb-logo-color.png" /> */}
 
 
   <div
@@ -20,11 +18,12 @@ Boom
       padding: 32,
     }}
   >
+    
     <h1>Simon G</h1>
     <section
       style={{
         display: `grid`,
-        gridTemplateColumns: `repeat( auto-fit, minmax(300px, 1fr) )`,
+        gridTemplateColumns: `repeat( auto-fit, minmax(250px, 1fr) )`,
         gridGap: 16,
         justifyContent: "space-between",
       }}

@@ -201,7 +201,7 @@ const MainPage = props => {
 <div className="container" style={{padding:'0rem 4%', position:'relaltive'}}>
 
 <h1 style={{textAlign: 'center',  margin:'0 0 1rem 0'}}>Pav &amp; Broome Fine Jewelry <br />
-<span style={{textAlign:'center', margin:'0 auto', display:'block', maxWidth:'78vw'}}>The Coast's Official <em>Rolex</em> Jeweler has been the Gulf Coast’s source for fine diamonds &amp; gemstones, gifts, accessories, jewelry and watches for more than 40 years.</span>
+<span style={{textAlign:'center', margin:'0 auto', display:'block', maxWidth:'85vw'}}>The Coast's Official <em>Rolex</em> Jeweler has been the Gulf Coast’s source for fine diamonds &amp; gemstones, gifts, accessories, jewelry and watches for more than 40 years.</span>
 </h1>
 
 <input className="uiInput" type="checkbox" name="one" id="item-1" />

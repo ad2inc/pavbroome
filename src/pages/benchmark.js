@@ -27,7 +27,7 @@ Benchmark bands are engineered for perfection. Our customers have come to expect
     style={{
       display: "flex",
       alignContent: "center",
-      margin: "-80px auto 0 auto",
+      margin: "-45px auto 0 auto",
       justifyContent: "space-around",
       
     }}

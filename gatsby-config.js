@@ -10,6 +10,8 @@ module.exports = {
       options: {
         spaceId: "123",
         preview: true,
+        apiUrl: 'https://api.simongjewelry.com/products',
+        accessToken: process.env.GATSBY_SIMONG_ACCESS_TOKEN,
         cacheResponse: false,
       },
     },
